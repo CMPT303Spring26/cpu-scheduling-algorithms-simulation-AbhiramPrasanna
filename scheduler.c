@@ -14,7 +14,7 @@ typedef struct {
     int finish_time;
     int is_completed;
 } Process;
-
+//try sometyhing new
 // Helper to reset process state between different simulation runs
 void reset_processes(Process p[], int n) {
     for (int i = 0; i < n; i++) {
